@@ -1,0 +1,12 @@
+Section A2 Concept Check Answers:
+
+1. Encapsulation protects sensitive internal fields like price, preventing external code from assigning invalid data
+    such as negative amounts. Routing field updates through getter and setter methods ensures validation rules are
+     strictly applied.
+
+2. A class is a template or blueprint that defines common variables and behaviors for an entity. An object is a concrete
+    instance of that class stored in memory, such as a physical book titled "Clean Code" with a unique ISBN.
+
+3. We made totalBooks static so it belongs to the class itself rather than individual instances, creating a single
+   shared counter across all objects. If it were an instance variable, every new book created would maintain its own
+    separate count (stuck at 1).
